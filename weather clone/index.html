@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather clone</title>
+     <!-- ==== link css files ==== -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic.min.css">
+</head>
+<body>
+    <div class="container">
+        <img class="background" src="image folder/background image.jpg" alt="">
+        <!-- ==== content box ==== -->
+        <div class="box">
+             <div class="input">
+            <input type="text" id="country" value="" placeholder="Search City">
+            <img class="btn" src="image folder/search.png" alt="search">
+         </div>
+         <div class="show-content">
+          <div class="After-search">
+            <div class="connect">
+            <div class="location-icon"><img src="image folder/placeholder.png" alt=""></div>
+            <div class="location">Singapore</div>
+            <div class="flag" id="flag"><img src="http://flagsapi.com/SG/shiny/32.png" alt=""></div>
+            </div>
+            
+          </div>
+          <div class="after-text">
+            <div class="weathericon" id="weathericon"><img src="http://openweathermap.org/img/wn/10d@4x.png" alt=""></div>
+            <div class="connect2">
+                <div class="temp">25°C</div>
+                <div class="cloudy">Rainy</div>
+            </div>
+          </div>
+          <div class="after-temp">
+            <div class="humidity">
+                <div class="humidity-icon"><img  src="image folder/humidity.png" alt=""></div>
+                <div class="humiditybox">
+                    <div class="humidity-text">Humidity</div>
+                <div class="humidity-value">50%</div>
+                </div>  
+            </div>
+            <div class="windspeed">
+                <div class="windspeed-icon"><img style="width: 26px;" src="image folder/cloud.png" alt=""></div>
+                <div class="windspeedbox">
+                    <div class="windspeed-text">WindSpeed</div>
+                    <div class="windspeed-value">40 KM/H</div>
+                </div> 
+            </div>
+          </div>
+          <div class="date-time">Sunday, 6 Aug</div>
+        </div>
+        <div class="img"><img  src="" alt=""></div>
+        </div>
+    </div>
+<!-- ==== link javascript files==== -->
+ <script src="script.js"></script>
+</body>
+</html>
